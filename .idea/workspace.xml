@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c454a912-c421-4601-8077-943f89840305" name="Default Changelist" comment="added count and about pages">
+    <list default="true" id="c454a912-c421-4601-8077-943f89840305" name="Default Changelist" comment="Changed the directory structure of the project">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-FirstSite/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-FirstSite/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-FirstSite/myFirstSite/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-FirstSite/myFirstSite/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-FirstSite/myFirstSite/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-FirstSite/myFirstSite/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-FirstSite/myFirstSite/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-FirstSite/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-FirstSite/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-FirstSite/templates/count.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-FirstSite/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,13 +23,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -50,7 +62,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -58,10 +69,16 @@
               <item name="myFirstSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="myFirstSite" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myFirstSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFirstSite" type="462c0819:PsiDirectoryNode" />
+              <item name="my-FirstSite" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -71,6 +88,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\santosh.sanwal\PycharmProjects\myFirstSite\my-FirstSite" />
       <recent name="C:\Users\santosh.sanwal\PycharmProjects\myFirstSite" />
       <recent name="C:\Users\santosh.sanwal\PycharmProjects\myFirstSite\myFirstSite" />
     </key>
@@ -135,13 +153,20 @@
       <option name="project" value="LOCAL" />
       <updated>1552976611410</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed the directory structure of the project">
+      <created>1552977563513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552977563513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15773809" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15773809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -151,8 +176,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28477904" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.24386252" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28477904" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -162,27 +187,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added count and about pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added count and about pages" />
+    <MESSAGE value="Changed the directory structure of the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the directory structure of the project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myFirstSite/settings.py">
+    <entry file="file://$PROJECT_DIR$/my-FirstSite/myFirstSite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/count.html">
+    <entry file="file://$PROJECT_DIR$/my-FirstSite/templates/count.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myFirstSite/views.py">
+    <entry file="file://$PROJECT_DIR$/my-FirstSite/myFirstSite/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
@@ -192,21 +215,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/my-FirstSite/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/about.html">
+    <entry file="file://$PROJECT_DIR$/my-FirstSite/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myFirstSite/urls.py">
+    <entry file="file://$PROJECT_DIR$/my-FirstSite/myFirstSite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
@@ -215,6 +238,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-FirstSite/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

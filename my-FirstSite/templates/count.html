@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Count</title>
+</head>
+<body>
+
+<h1>Count</h1>
+<p>There are {{count}} words in the text</p>
+<a href="{%url 'homepage' %}">Go to Home</a>
+
+<h1>Text</h1>
+{{fulltext}}
+
+<br>
+
+{% for word ,countal in countedwords%}
+
+{{word}},  {{countal}}
+<br>
+{% endfor %}
+
+</body>
+</html>
